@@ -1,3 +1,5 @@
 import BigNavbar from "./BigNavbar";
 import Home from "./Home";
-export { Home, BigNavbar };
+import About from "./About";
+
+export { Home, BigNavbar, About };
