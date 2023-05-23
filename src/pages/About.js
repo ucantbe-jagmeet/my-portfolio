@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <main className=" ">
-      <h3 className=" text-3xl p-10 text-white">
+      <h3 className=" text-3xl p-10 text-black bg-[--primary-white]">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis,
         suscipit iusto dolor a sequi officiis voluptas enim placeat nihil nemo
         totam, delectus facilis, sit recusandae nulla provident! Assumenda quod
