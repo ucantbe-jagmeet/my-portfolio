@@ -3,27 +3,31 @@ import React from "react";
 import About from "./About";
 import BigNavbar from "./BigNavbar";
 import Img from "../assets/img.png";
-import Me from "../assets/me.jpeg";
+import Img2 from "../assets/cartoon.jpg";
+import Technologies from "./Technologies";
 
 const Home = () => {
   return (
     <>
-      <main className="home--main ">
+      <main className="home--main  ">
         <BigNavbar />
-        <header className="home--header">
+        <header className="home--header ">
           <img
-            src={Me}
+            src={Img2}
             alt=""
-            className=" home--header--img1 rounded-3xl  w-52 pb-72 "
+            className="home--header--img2 w-[80%] rounded-2xl cover  sm:hidden mb-40"
           />
           <img
             src={Img}
             alt=""
-            className="home--header--img2  pt-[25rem] w-screen "
+            className="home--header--img1  pt-[24.5rem] w-screen "
           />
         </header>
-        <section className="home--about">
+        <section>
           <About />
+        </section>
+        <section>
+          <Technologies />
         </section>
       </main>
     </>

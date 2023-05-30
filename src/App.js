@@ -1,11 +1,12 @@
 import "./App.css";
-import { BigNavbar, Home, About } from "./pages";
+import { Home } from "./pages";
+import Technologies from "./pages/Technologies";
 
 function App() {
   return (
     <>
       <Home />
-      <About />
+      <Technologies />
     </>
   );
 }
