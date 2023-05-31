@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Cabin', sans-serif;
-  background-color: var(--primary-black);
+  /* background-color: var(--primary-black); */
   overflow: hidden;
 }
 
@@ -60,4 +60,15 @@ transform: translateZ(-10px) scale(2);
 .animate:hover{
   animation-play-state: paused;
   cursor: pointer;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  overflow: -moz-scrollbars-none; /* Firefox */
+  -webkit-overflow-scrolling: touch; /* iOS Safari */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
 }

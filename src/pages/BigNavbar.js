@@ -1,11 +1,12 @@
 import { useState } from "react";
 
 import { FaBars } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const navLinks = [
   {
     id: 1,
-    href: "/home",
+    href: "/",
     text: "Home",
   },
   {
@@ -15,7 +16,7 @@ const navLinks = [
   },
   {
     id: 3,
-    href: "/Projects",
+    href: "/projects",
     text: "Projects",
   },
   {
@@ -28,7 +29,7 @@ const navLinks = [
 const BigNavbar = () => {
   const [isHover, setIsHover] = useState(false);
   return (
-    <main className="h-10 w-[100%] flex items-center pt-4 justify-around bg-transparent ">
+    <main className="h-14 w-[100%] flex items-center py-4 justify-around  bg-[--primary-black] ">
       <div className="text-[--primary-red1]  text-2xl md:ml-32">
         <h1>Logo</h1>
       </div>
@@ -42,11 +43,12 @@ const BigNavbar = () => {
 
             return (
               <li
+                key={id}
                 className="text-[--primary-red1] cursor-pointer hover:text-[--primary-green] ease-in  duration-200 "
                 onMouseEnter={() => setIsHover(!isHover)}
                 onMouseLeave={() => setIsHover(!isHover)}
               >
-                {isHover ? `/${text}` : `${text}`}
+                <NavLink to={href}>{text}</NavLink>
               </li>
             );
           })}

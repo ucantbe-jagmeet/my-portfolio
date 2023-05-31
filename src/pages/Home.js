@@ -11,8 +11,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <>
-      <main className="home--main  ">
-        <BigNavbar />
+      <main className="home--main  bg-[--primary-black]">
         <header className="home--header ">
           <img
             src={Img2}

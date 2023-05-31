@@ -18,7 +18,7 @@ const About = () => {
             About Me <span className="text-4xl">👋</span>
           </h1>
           <h2 className="text-2xl  ">
-            A dedicated Full-Stack Developer based in Himachal Pradesh, India
+            A Dedicated Full-Stack Developer based in Himachal Pradesh, India
           </h2>
           <p className="tracking-wider pt-3 ">
             As a Junior Full Stack Developer, I possess an impressive arsenal of

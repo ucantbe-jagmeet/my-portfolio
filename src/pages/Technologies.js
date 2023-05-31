@@ -4,7 +4,7 @@ import techLinks from "../assets/techLinks";
 const Technologies = () => {
   return (
     <main className="h-[80vh] bg-[--primary-black] flex flex-col justify-evenly items-center">
-      <h1 className="text-[--primary-white] text-4xl md:text-6xl text-center md:py-10">
+      <h1 className="text-[--primary-white] text-4xl md:text-6xl text-center  tracking-wider">
         Tech Stack
       </h1>
       <div className="relative w-full bg-[--primary-white]  p-16 overflow-hidden ">
