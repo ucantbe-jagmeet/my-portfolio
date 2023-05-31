@@ -5,6 +5,7 @@ import BigNavbar from "./BigNavbar";
 import Img from "../assets/img.png";
 import Img2 from "../assets/cartoon.jpg";
 import Technologies from "./Technologies";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -28,6 +29,9 @@ const Home = () => {
         </section>
         <section>
           <Technologies />
+        </section>
+        <section>
+          <Projects />
         </section>
       </main>
     </>

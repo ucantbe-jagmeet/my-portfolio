@@ -7,16 +7,16 @@ import { SiExpress, SiPostman } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 
 const data = [
-  { id: 1, text: "HTML5", icon: <AiFillHtml5 /> },
-  { id: 2, text: "CSS3", icon: <FaCss3Alt /> },
+  { id: 1, text: "Html5", icon: <AiFillHtml5 /> },
+  { id: 2, text: "Css3", icon: <FaCss3Alt /> },
   { id: 3, text: "Tailwind", icon: <SiTailwindcss /> },
   { id: 4, text: "Bootstrap", icon: <BsFillBootstrapFill /> },
   { id: 5, text: "React", icon: <FaReact /> },
   { id: 6, text: "Typescript", icon: <SiTypescript /> },
-  { id: 7, text: "REDUX TOOLKIT", icon: <TbBrandRedux /> },
-  { id: 8, text: "NODE JS", icon: <FaNodeJs /> },
-  { id: 9, text: "EXPRESS JS", icon: <SiExpress /> },
-  { id: 10, text: "MONGO DB", icon: <DiMongodb /> },
+  { id: 7, text: "Redux Toolkit", icon: <TbBrandRedux /> },
+  { id: 8, text: "Node Js", icon: <FaNodeJs /> },
+  { id: 9, text: "Express Js", icon: <SiExpress /> },
+  { id: 10, text: "Mongo Db", icon: <DiMongodb /> },
   { id: 11, text: "Github", icon: <BsGithub /> },
   { id: 12, text: "Postman", icon: <SiPostman /> },
 ];

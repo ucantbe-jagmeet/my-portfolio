@@ -14,18 +14,20 @@ const About = () => {
           />
         </div>
         <div className=" w-[70%] text-black bg-[--primary-white] mt-10 md:w-[80%] md:mt-0">
-          <h1 className="text-[--primary-red1] text-3xl ">About Me</h1>
+          <h1 className="text-[--primary-red1] text-3xl mb-5">
+            About Me <span className="text-4xl">👋</span>
+          </h1>
           <h2 className="text-2xl  ">
             A dedicated Full-Stack Developer based in Himachal Pradesh, India
           </h2>
-          <p className="tracking-wide pt-3 ">
+          <p className="tracking-wider pt-3 ">
             As a Junior Full Stack Developer, I possess an impressive arsenal of
             skills in JAVASCRIPT, REACTJS, TAILWIND, REDUX TOOLKIT, NODEJs,
             EXPRESSJs and MONGODB. I excel in designing and maintaining
             responsive websites that offer a smooth user experience.
             {!isExpanded && (
               <button
-                className="text-md text-[--primary-red1]"
+                className="text-md text-[--primary-red1] tracking-wider"
                 onClick={() => setIsExpanded(!isExpanded)}
               >
                 ...Read More
@@ -33,7 +35,7 @@ const About = () => {
             )}
             {isExpanded && (
               <>
-                <p className="tracking-wide">
+                <p className="tracking-wider">
                   My expertise lies in crafting dynamic, engaging interfaces
                   through writing clean and optimized code and utilizing
                   cutting-edge development tools and techniques. I am also a
@@ -41,7 +43,7 @@ const About = () => {
                   teams to produce outstanding web applications."
                 </p>
                 <button
-                  className="text-md text-[--primary-blue]"
+                  className="text-md text-[--primary-blue] tracking-wider"
                   onClick={() => setIsExpanded(!isExpanded)}
                 >
                   Ok, Got It
