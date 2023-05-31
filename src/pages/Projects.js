@@ -22,7 +22,10 @@ const Projects = () => {
           const { id, title, text, href1, href2, img } = links;
           return (
             <>
-              <div className="h-auto sm:h-auto w-[100%] rounded-md p-2 grid grid-cols-1 items-center md:grid-cols-2 md:h-[50vh] my-5 bg-white">
+              <div
+                key={id}
+                className="h-auto sm:h-auto w-[100%] rounded-md p-2 grid grid-cols-1 items-center md:grid-cols-2 md:h-[50vh] my-5 bg-white"
+              >
                 <div className="w-[100%] text-center flex flex-col items-center bg-white">
                   <h1 className="font-semibold text-xl tracking-widest">
                     {title}

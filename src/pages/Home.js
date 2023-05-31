@@ -21,7 +21,7 @@ const Home = () => {
           <img
             src={Img}
             alt=""
-            className="home--header--img1  pt-[24.5rem] w-screen "
+            className="home--header--img1  pt-[22.5rem] w-screen "
           />
         </header>
         <section>
