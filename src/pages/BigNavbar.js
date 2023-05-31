@@ -42,14 +42,21 @@ const BigNavbar = () => {
             const { id, href, text } = links;
 
             return (
-              <li
-                key={id}
-                className="text-[--primary-red1] cursor-pointer hover:text-[--primary-green] ease-in  duration-200 "
-                onMouseEnter={() => setIsHover(!isHover)}
-                onMouseLeave={() => setIsHover(!isHover)}
+              <NavLink
+                to={href}
+                style={({ isActive }) => {
+                  return { color: isActive ? "#95FF00" : "#FF4301" };
+                }}
               >
-                <NavLink to={href}>{text}</NavLink>
-              </li>
+                <li
+                  key={id}
+                  className="cursor-pointer hover:text-[--primary-green] ease-in  duration-200 "
+                  onMouseEnter={() => setIsHover(!isHover)}
+                  onMouseLeave={() => setIsHover(!isHover)}
+                >
+                  {text}
+                </li>
+              </NavLink>
             );
           })}
         </ul>

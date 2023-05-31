@@ -7,7 +7,7 @@ import portfolioData from "../assets/portfolio/portfolioData";
 
 const Projects = () => {
   return (
-    <main className="h-auto w-[100vw] bg-[--primary-red1] text-[--primary-black] p-7  flex flex-col items-center justify-center ">
+    <main className="h-[100vh] w-[100vw] bg-[--primary-red1] text-[--primary-black] p-7  flex flex-col items-center justify-center ">
       <div className="w-[100%]  flex flex-col items-center py-10">
         <h1 className="text-3xl text-[--primary-white] uppercase tracking-wide">
           Portfolio
@@ -17,7 +17,7 @@ const Projects = () => {
           <FcApproval className="text-2xl" />
         </p>
       </div>
-      <div className="h-auto md:w-[70%]  ">
+      <div className="h-full md:w-[70%]  ">
         {portfolioData.map((links) => {
           const { id, title, text, href1, href2, img } = links;
           return (
