@@ -19,7 +19,7 @@ const Projects = () => {
       <div className="md:w-[70%] my-5">
         <div className="h-[50vh] sm:h-auto w-[100%] bg-white rounded-md p-2 grid  grid-cols-1 items-center md:grid-cols-2 md:h-[50vh] ">
           <div className="w-[100%] text-center flex flex-col items-center ">
-            <h1 className="font-semibold text-xl tracking-wider">
+            <h1 className="font-semibold text-xl tracking-widest">
               Yummy Slice Pizza
             </h1>
             <p className="w-[70%]  hidden sm:block my-1 md:my-5 lg:my-7">
@@ -34,11 +34,11 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="w-[100%] flex justify-center ">
+          <div className="w-[100%] flex justify-center my-4">
             <img
               src={portfolio1}
               alt=""
-              className="h-auto w-[80%] sm:w-[90%] shadow-lg "
+              className="h-auto w-[80%] sm:w-[90%] shadow-md rounded-lg shadow-red-300"
             />
           </div>
         </div>
